@@ -8,17 +8,214 @@ $color5: #323E52;
 $azulclaro: #CCDEF0;
 $graybase: #F2F2F2;
 
-@media screen and (max-width: 1439px) {
-  div#Name{
-    margin-top: 2.5%;
-    margin-bottom: 10%;
+@media screen and (max-width: 768px) {
+  body{
+  background-color: $color5;
+  border: 1px solid $color3;
+  }
+
+  div.dropdown{
+    button{
+      background-color: $color5;
+      color:$color1;
+      font-size: 14px;
+    }
+  }
+  .dropdown-menu{
+    background-color:white;
+     .dropdown-item{
+      color: $color5;
+    }
+  }
+  .section0{
+    font-size: 12px;
+    font-style: italic;
+    text-align: justify;
+    color: $color5;
+    margin-left: 2.5%;
+    margin-right: 7.5%;
+    margin-bottom: 1%;
+  }
+
+  .section1{
+    display: none;
+  }
+
+  .section{
+    font-size: 12px;
+    text-align: justify;
+    color: #566773;
+    margin-left: 2.5%;
+    margin-right: 7.5%;
+    margin-bottom: 1%;
+  }
+
+
+  div#Welcome{
+    color: white;
+    margin-bottom: -15%;
     margin-left: 5%;
     margin-right: 5%;
+
+    h1{
+      text-align: center;
+      font-size: 24px;
+    }
+    p{
+      color: $color2;
+      font-size: 16px;
+      text-align: justify;
+      margin-top: 5%;
+    }
+  }
+
+  div#Name{
+    background-color: $color1;
+    height: auto;
+    margin: 10%;
     border: 3px solid $color3;
+    h1{
+        color: $color3;
+        text-align: center;
+        font-size: 24px;
+    }
+    h2, h3 {
+        color: lightgray;
+        text-align: center;
+        font-size: 16px;
+    }
   }
   div#Photo{
     display: none;
   }
+
+  div#Introduction{
+    background-color: $color4;
+    padding: 1%;
+    font-size: 16px;
+    margin: 10%;
+    margin-top: -10%;
+
+      p{
+        text-align: justify;
+        margin: 2.5%;
+        color: $color1;
+      }
+      table {
+          display: none;
+      }
+      th{
+        color: $color4;
+        background-color: white;
+        text-align: center;
+        padding: 4px;
+      }
+      td{
+        background-color: white;
+        color: $color3;
+        text-align: center;
+        padding: 4px;
+    }
+  }
+
+  div#Experience, div#Education, div#Courses, div#Languages, div#Vol, div#Achievements{
+    background-color: $graybase;
+    padding: 1%;
+    ul{
+          margin-left: 2.5%;
+          color: $color5;
+        }
+    h2{
+      color: $color5;
+      font-size: 24px;
+      text-align: center;
+      text-decoration: overline;
+      background-color: $color3;
+      padding: 1%;
+      margin-top: -1.2%;
+      margin-right: -1.1%;
+      margin-left: -6.2%;
+
+    }
+    h4{
+      color: $color2;
+      font-style: italic;
+      font-size: 16px;
+      padding: 2px;
+    }
+    h6{
+      color: $color3;
+      font-style: oblique;
+      font-size: 9px;
+      margin-top: -0.5%;
+      margin-left: 0.5%;
+    }
+    p{
+      text-align: justify;
+      margin-right: 2.5%;
+      margin-left: 2.5%;
+      color: $color5;
+      font-size: 18px;
+    }
+
+  }
+
+  div#Feedback{
+    background: $color5;
+    padding: 1%;
+
+    h2{
+      color: $color2;
+      font-size: 24px;
+      text-align: center;
+      text-decoration: overline;
+    }
+    p{
+      color: $color1;
+      text-align: center;
+    }
+      form{
+        padding: 2%;
+        text-align:center;
+
+      }
+
+      button, input{
+        font-size: 12px;
+        color: $color5;
+
+      }
+
+      button:hover {
+          background-color: $color3;
+          color: white;
+      }
+      p::selection {
+          color: white;
+          background-color: $color3;
+    }
+  }
+
+
+}
+@media screen and (max-width: 1439px) {
+
+  div#Photo{
+    display: none;
+  }
+  div#Name{
+    background-color: $color1;
+    height: auto;
+    margin: 10%;
+    border: 3px solid $color3;
+}
+div#Introduction{
+  background-color: $color4;
+  padding: 1%;
+  font-size: 16px;
+  margin: 10%;
+  margin-top: -10%;
+}
 }
 
 body{
@@ -30,7 +227,7 @@ border: 1px solid $color3;
   margin: 5%;
   margin-left: 12.5%;
   margin-top: -2%;
-  margin-bottom: 54px;
+  margin-bottom: 3.8%;
   button{
     background-color: $color5;
     color:$color1;
@@ -47,6 +244,14 @@ border: 1px solid $color3;
   font-style: italic;
   text-align: justify;
   color: $color5;
+  margin-left: 2.5%;
+  margin-right: 7.5%;
+  margin-bottom: 1%;
+}
+.section1{
+  font-size: 15px;
+  text-align: justify;
+  color: #566773;
   margin-left: 2.5%;
   margin-right: 7.5%;
   margin-bottom: 1%;

@@ -1,13 +1,165 @@
-@media screen and (max-width: 1439px) {
-  div#Name {
-    margin-top: 2.5%;
-    margin-bottom: 10%;
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #323E52;
+    border: 1px solid #A2B3BE; }
+
+  div.dropdown button {
+    background-color: #323E52;
+    color: #F5F6F7;
+    font-size: 14px; }
+
+  .dropdown-menu {
+    background-color: white; }
+    .dropdown-menu .dropdown-item {
+      color: #323E52; }
+
+  .section0 {
+    font-size: 12px;
+    font-style: italic;
+    text-align: justify;
+    color: #323E52;
+    margin-left: 2.5%;
+    margin-right: 7.5%;
+    margin-bottom: 1%; }
+
+  .section1 {
+    display: none; }
+
+  .section {
+    font-size: 12px;
+    text-align: justify;
+    color: #566773;
+    margin-left: 2.5%;
+    margin-right: 7.5%;
+    margin-bottom: 1%; }
+
+  div#Welcome {
+    color: white;
+    margin-bottom: -15%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%; }
+    div#Welcome h1 {
+      text-align: center;
+      font-size: 24px; }
+    div#Welcome p {
+      color: #E3A855;
+      font-size: 16px;
+      text-align: justify;
+      margin-top: 5%; }
+
+  div#Name {
+    background-color: #F5F6F7;
+    height: auto;
+    margin: 10%;
     border: 3px solid #A2B3BE; }
+    div#Name h1 {
+      color: #A2B3BE;
+      text-align: center;
+      font-size: 24px; }
+    div#Name h2, div#Name h3 {
+      color: lightgray;
+      text-align: center;
+      font-size: 16px; }
 
   div#Photo {
-    display: none; } }
+    display: none; }
+
+  div#Introduction {
+    background-color: #E55E63;
+    padding: 1%;
+    font-size: 16px;
+    margin: 10%;
+    margin-top: -10%; }
+    div#Introduction p {
+      text-align: justify;
+      margin: 2.5%;
+      color: #F5F6F7; }
+    div#Introduction table {
+      display: none; }
+    div#Introduction th {
+      color: #E55E63;
+      background-color: white;
+      text-align: center;
+      padding: 4px; }
+    div#Introduction td {
+      background-color: white;
+      color: #A2B3BE;
+      text-align: center;
+      padding: 4px; }
+
+  div#Experience, div#Education, div#Courses, div#Languages, div#Vol, div#Achievements {
+    background-color: #F2F2F2;
+    padding: 1%; }
+    div#Experience ul, div#Education ul, div#Courses ul, div#Languages ul, div#Vol ul, div#Achievements ul {
+      margin-left: 2.5%;
+      color: #323E52; }
+    div#Experience h2, div#Education h2, div#Courses h2, div#Languages h2, div#Vol h2, div#Achievements h2 {
+      color: #323E52;
+      font-size: 24px;
+      text-align: center;
+      text-decoration: overline;
+      background-color: #A2B3BE;
+      padding: 1%;
+      margin-top: -1.2%;
+      margin-right: -1.1%;
+      margin-left: -6.2%; }
+    div#Experience h4, div#Education h4, div#Courses h4, div#Languages h4, div#Vol h4, div#Achievements h4 {
+      color: #E3A855;
+      font-style: italic;
+      font-size: 16px;
+      padding: 2px; }
+    div#Experience h6, div#Education h6, div#Courses h6, div#Languages h6, div#Vol h6, div#Achievements h6 {
+      color: #A2B3BE;
+      font-style: oblique;
+      font-size: 9px;
+      margin-top: -0.5%;
+      margin-left: 0.5%; }
+    div#Experience p, div#Education p, div#Courses p, div#Languages p, div#Vol p, div#Achievements p {
+      text-align: justify;
+      margin-right: 2.5%;
+      margin-left: 2.5%;
+      color: #323E52;
+      font-size: 18px; }
+
+  div#Feedback {
+    background: #323E52;
+    padding: 1%; }
+    div#Feedback h2 {
+      color: #E3A855;
+      font-size: 24px;
+      text-align: center;
+      text-decoration: overline; }
+    div#Feedback p {
+      color: #F5F6F7;
+      text-align: center; }
+    div#Feedback form {
+      padding: 2%;
+      text-align: center; }
+    div#Feedback button, div#Feedback input {
+      font-size: 12px;
+      color: #323E52; }
+    div#Feedback button:hover {
+      background-color: #A2B3BE;
+      color: white; }
+    div#Feedback p::selection {
+      color: white;
+      background-color: #A2B3BE; } }
+@media screen and (max-width: 1439px) {
+  div#Photo {
+    display: none; }
+
+  div#Name {
+    background-color: #F5F6F7;
+    height: auto;
+    margin: 10%;
+    border: 3px solid #A2B3BE; }
+
+  div#Introduction {
+    background-color: #E55E63;
+    padding: 1%;
+    font-size: 16px;
+    margin: 10%;
+    margin-top: -10%; } }
 body {
   background-color: #323E52;
   border: 1px solid #A2B3BE; }
@@ -16,7 +168,7 @@ body {
   margin: 5%;
   margin-left: 12.5%;
   margin-top: -2%;
-  margin-bottom: 54px; }
+  margin-bottom: 3.8%; }
   .dropdown button {
     background-color: #323E52;
     color: #F5F6F7; }
@@ -31,6 +183,14 @@ body {
   font-style: italic;
   text-align: justify;
   color: #323E52;
+  margin-left: 2.5%;
+  margin-right: 7.5%;
+  margin-bottom: 1%; }
+
+.section1 {
+  font-size: 15px;
+  text-align: justify;
+  color: #566773;
   margin-left: 2.5%;
   margin-right: 7.5%;
   margin-bottom: 1%; }
