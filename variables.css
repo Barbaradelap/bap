@@ -13,7 +13,7 @@
     .dropdown-menu .dropdown-item {
       color: #323E52; }
 
-  .section0 {
+  div.section0 {
     font-size: 12px;
     font-style: italic;
     text-align: justify;
@@ -25,7 +25,7 @@
   .section1 {
     display: none; }
 
-  .section {
+  div.section {
     font-size: 12px;
     text-align: justify;
     color: #566773;
@@ -92,7 +92,8 @@
     padding: 1%; }
     div#Experience ul, div#Education ul, div#Courses ul, div#Languages ul, div#Vol ul, div#Achievements ul {
       margin-left: 2.5%;
-      color: #323E52; }
+      color: #323E52;
+      font-size: 12px; }
     div#Experience h2, div#Education h2, div#Courses h2, div#Languages h2, div#Vol h2, div#Achievements h2 {
       color: #323E52;
       font-size: 24px;
@@ -119,7 +120,7 @@
       margin-right: 2.5%;
       margin-left: 2.5%;
       color: #323E52;
-      font-size: 18px; }
+      font-size: 13px; }
 
   div#Feedback {
     background: #323E52;

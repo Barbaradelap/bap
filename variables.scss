@@ -27,7 +27,7 @@ $graybase: #F2F2F2;
       color: $color5;
     }
   }
-  .section0{
+  div.section0{
     font-size: 12px;
     font-style: italic;
     text-align: justify;
@@ -41,7 +41,7 @@ $graybase: #F2F2F2;
     display: none;
   }
 
-  .section{
+  div.section{
     font-size: 12px;
     text-align: justify;
     color: #566773;
@@ -124,6 +124,7 @@ $graybase: #F2F2F2;
     ul{
           margin-left: 2.5%;
           color: $color5;
+          font-size: 12px;
         }
     h2{
       color: $color5;
@@ -155,7 +156,7 @@ $graybase: #F2F2F2;
       margin-right: 2.5%;
       margin-left: 2.5%;
       color: $color5;
-      font-size: 18px;
+      font-size: 13px;
     }
 
   }
