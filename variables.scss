@@ -73,7 +73,7 @@ $graybase: #F2F2F2;
   }
 
   div#Welcome{
-    color: white;
+    color: $color1;
     margin-bottom: -15%;
     margin-left: 5%;
     margin-right: 5%;
@@ -91,21 +91,28 @@ $graybase: #F2F2F2;
   }
 
   div#Name{
-    background-color: $color1;
-    height: auto;
-    margin: 10%;
-    border: 3px solid $color3;
-    h1{
-        color: $color3;
-        text-align: center;
-        font-size: 24px;
+    .visible{
+      background-color:$color3;
+      height: auto;
+      margin-left: -20%;
+      margin-right: -20%;
+      margin-bottom: -5%;
+      margin-top: -5%;
+      border: 3px solid $color5;
     }
-    h2, h3 {
+    h1{
+        color: $color1;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bolder;
+    }
+    h2, h3{
         color: lightgray;
         text-align: center;
         font-size: 16px;
+
     }
-  }
+}
   div#Photo{
     display: none;
   }
