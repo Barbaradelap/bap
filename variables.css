@@ -3,10 +3,13 @@
     background-color: #323E52;
     border: 1px solid #A2B3BE; }
 
-  div.dropdown button {
-    background-color: #323E52;
-    color: #F5F6F7;
-    font-size: 14px; }
+  div.dropdown {
+    margin-top: -17%;
+    margin-bottom: -5%; }
+    div.dropdown button {
+      background-color: #323E52;
+      color: #F5F6F7;
+      font-size: 10px; }
 
   .dropdown-menu {
     background-color: white; }
@@ -80,7 +83,7 @@
     color: #F5F6F7;
     text-align: center;
     font-size: 24px; }
-  div#Name h2, div#Name h3 {
+  div#Name h3 {
     color: lightgray;
     text-align: center;
     font-size: 13px; }
