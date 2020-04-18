@@ -15,21 +15,7 @@ $graybase: #F2F2F2;
   }
 
   div.dropdown{
-    margin-top: -50%;
-    margin-bottom: 35%;
-    margin-left: 0%;
-    button{
-      background-color: $color5;
-      color:$color1;
-      font-size: 10px;
-    }
-  }
-  .dropdown-menu{
-    background-color:white;
-     .dropdown-item{
-      color: $color5;
-      font-size: 10px;
-    }
+  display: none;
   }
   div.section0{
     font-size: 12px;
