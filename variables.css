@@ -23,12 +23,36 @@
     margin-bottom: 1%; }
 
   div.section {
-    font-size: 12px;
+    font-size: 11px;
     text-align: justify;
     color: #566773;
     margin-left: 2.5%;
     margin-right: 7.5%;
     margin-bottom: 1%; }
+
+  div.sectioncol0 {
+    font-size: 11px;
+    text-align: justify;
+    color: #566773;
+    margin-left: 6%; }
+
+  div.sectioncol1 {
+    font-size: 11px;
+    text-align: justify;
+    color: #566773;
+    margin-left: -60%; }
+
+  div.sectioncol2 {
+    font-size: 11px;
+    text-align: justify;
+    color: #566773;
+    margin-left: -4.5%; }
+
+  div.sectioncol3 {
+    font-size: 11px;
+    text-align: justify;
+    color: #566773;
+    margin-left: -70%; }
 
   div#Welcome {
     color: white;
@@ -200,6 +224,30 @@ body {
   margin-left: 2.5%;
   margin-right: 7.5%;
   margin-bottom: 1%; }
+
+.sectioncol0 {
+  font-size: 15px;
+  text-align: justify;
+  color: #566773;
+  margin-left: 7%; }
+
+.sectioncol1 {
+  font-size: 15px;
+  text-align: justify;
+  color: #566773;
+  margin-left: -66.5%; }
+
+.sectioncol2 {
+  font-size: 15px;
+  text-align: justify;
+  color: #566773;
+  margin-left: 3%; }
+
+.sectioncol3 {
+  font-size: 15px;
+  text-align: justify;
+  color: #566773;
+  margin-left: -70%; }
 
 #Welcome {
   color: white;
