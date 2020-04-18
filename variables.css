@@ -4,8 +4,9 @@
     border: 1px solid #A2B3BE; }
 
   div.dropdown {
-    margin-top: -30%;
-    margin-bottom: -2%; }
+    margin-top: -50%;
+    margin-bottom: 35%;
+    margin-left: 0%; }
     div.dropdown button {
       background-color: #323E52;
       color: #F5F6F7;
