@@ -161,7 +161,9 @@
       color: white; }
     div#Feedback p::selection {
       color: white;
-      background-color: #A2B3BE; } }
+      background-color: #A2B3BE; }
+    div#Feedback .tip {
+      display: none; } }
 @media screen and (max-width: 1439px) {
   div#Photo {
     display: none; }

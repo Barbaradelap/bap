@@ -181,10 +181,6 @@ $graybase: #F2F2F2;
     background: $color5;
     padding: 1%;
 
-    .tip{
-      display: none;
-    }
-
     h2{
       color: $color2;
       font-size: 24px;
@@ -215,6 +211,10 @@ $graybase: #F2F2F2;
           color: white;
           background-color: $color3;
     }
+
+        .tip{
+          display: none;
+        }
   }
 
 
