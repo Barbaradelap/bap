@@ -181,6 +181,10 @@ $graybase: #F2F2F2;
     background: $color5;
     padding: 1%;
 
+    div.tip{
+      display: none;
+    }
+
     h2{
       color: $color2;
       font-size: 24px;
@@ -455,6 +459,7 @@ border: 1px solid $color3;
     font-style: italic;
     font-size: 20px;
     padding: 4px;
+
   }
   h6{
     color: $color3;
